@@ -9,8 +9,8 @@
 <h1 align="center">ROVANTA</h1>
 
 <p align="center">
-  <strong>A terminal-based AI research agent for crypto markets.</strong><br />
-  Evidence over narrative.
+  <strong>AI research agent for Robinhood Chain &amp; Ethereum.</strong><br />
+  Run locally from your terminal.
 </p>
 
 <p align="center">
@@ -30,6 +30,20 @@
   <a href="SECURITY.md">Security</a> &nbsp;·&nbsp;
   <a href="#roadmap">Roadmap</a>
 </p>
+
+<h3 align="center">$RVNT</h3>
+
+<p align="center"><strong>Contract address (CA)</strong></p>
+
+```text
+0x176f35FE04441BB79FE66F41fD663A34E1D648C7
+```
+
+<p align="center">
+  <a href="https://www.ponsfamily.com/launchpad/0x176f35FE04441BB79FE66F41fD663A34E1D648C7"><img alt="Buy $RVNT" src="https://img.shields.io/badge/Buy-%24RVNT-00C805?style=for-the-badge&labelColor=141816" /></a>
+</p>
+
+<p align="center"><sub>Paired with ETH. Always verify the contract address. Not investment advice.</sub></p>
 
 ---
 

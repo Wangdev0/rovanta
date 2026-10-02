@@ -19,7 +19,7 @@ const COMMANDS: Record<string, { handler: CommandHandler; summary: string }> = {
 export function helpText(): string {
   const width = Math.max(...Object.keys(COMMANDS).map((name) => name.length));
   const lines = [
-    `rovanta ${VERSION} - terminal-based AI research agent for crypto markets`,
+    `rovanta ${VERSION} - AI research agent for Robinhood Chain & Ethereum`,
     "",
     "Usage:",
     "  rovanta <command> [options]",

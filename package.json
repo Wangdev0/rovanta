@@ -1,7 +1,7 @@
 {
   "name": "rovanta",
   "version": "0.1.0",
-  "description": "Open-source, terminal-based AI research agent for crypto markets. Bring your own model.",
+  "description": "AI research agent for Robinhood Chain & Ethereum. Run locally from your terminal.",
   "license": "MIT",
   "repository": {
     "type": "git",
