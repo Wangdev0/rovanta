@@ -1,0 +1,43 @@
+{
+  "_comment": "DEV FIXTURE: synthetic DefiLlama-shaped payloads for tests only. Values are invented and do not describe real protocols.",
+  "protocols": [
+    { "id": "1", "name": "Fixture Lend", "slug": "fixture-lend", "symbol": "FXL", "category": "Lending", "chains": ["Ethereum"], "tvl": 5000, "change_1d": 1.5, "change_7d": -3, "url": "https://lend.fixture.invalid" },
+    { "id": "2", "name": "Fixture", "slug": "fixture", "symbol": "-", "category": "Dexs", "chains": ["Ethereum", "Base"], "tvl": 100, "url": "https://fixture.invalid" },
+    { "id": "3", "name": "Mega Fixture Vaults", "slug": "mega-fixture-vaults", "symbol": "MFV", "category": "Yield", "chains": ["Base"], "tvl": 900000 },
+    { "id": "4", "name": "Fixture Bridge", "slug": "fixture-bridge", "symbol": "FXB", "category": "Bridge", "chains": [], "tvl": 70000 },
+    { "id": "5", "name": "Unrelated", "slug": "unrelated", "symbol": "UNR", "category": "Dexs", "chains": [], "tvl": 99999999 }
+  ],
+  "protocol": {
+    "id": "1",
+    "name": "Fixture Lend",
+    "url": "https://lend.fixture.invalid",
+    "description": "Synthetic lending protocol for tests.",
+    "symbol": "FXL",
+    "gecko_id": "fixture-lend-token",
+    "twitter": "fixture_lend",
+    "github": ["fixture-lend-org"],
+    "audits": "2",
+    "category": "Lending",
+    "chains": ["Ethereum", "Base"],
+    "currentChainTvls": {
+      "Ethereum": 3000,
+      "Base": 2000,
+      "Ethereum-borrowed": 1500,
+      "borrowed": 1500,
+      "staking": 400,
+      "pool2": 50,
+      "Base-staking": 10
+    },
+    "tvl": [
+      { "date": 1766534400, "totalLiquidityUSD": 4000 },
+      { "date": 1766620800, "totalLiquidityUSD": 4100 },
+      { "date": 1766707200, "totalLiquidityUSD": 4200 },
+      { "date": 1766793600, "totalLiquidityUSD": 4300 },
+      { "date": 1766880000, "totalLiquidityUSD": 4400 },
+      { "date": 1766966400, "totalLiquidityUSD": 4500 },
+      { "date": 1767052800, "totalLiquidityUSD": 4600 },
+      { "date": 1767139200, "totalLiquidityUSD": 4000 },
+      { "date": 1767225600, "totalLiquidityUSD": 5000 }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "rovanta",
+  "version": "0.1.0",
+  "description": "Open-source, terminal-based AI research agent for crypto markets. Bring your own model.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wangdev0/rovanta.git"
+  },
+  "homepage": "https://github.com/Wangdev0/rovanta#readme",
+  "bugs": "https://github.com/Wangdev0/rovanta/issues",
+  "keywords": ["cli", "crypto", "research", "ai-agent", "llm", "defi", "onchain"],
+  "type": "module",
+  "bin": {
+    "rovanta": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx src/cli/bin.ts",
+    "start": "node dist/cli.js",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "viem": "^2.57.2",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9",
+    "@types/node": "^24.19.1",
+    "eslint": "^9",
+    "tsup": "^8",
+    "tsx": "^4",
+    "typescript": "^5",
+    "typescript-eslint": "^8",
+    "vitest": "^5.0.3"
+  }
+}

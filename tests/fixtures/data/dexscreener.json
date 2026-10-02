@@ -1,0 +1,40 @@
+{
+  "_comment": "DEV FIXTURE: synthetic DEX Screener-shaped payloads for tests only. Values are invented and do not describe real pools.",
+  "pairs": {
+    "schemaVersion": "1.0.0",
+    "pairs": [
+      {
+        "chainId": "ethereum",
+        "dexId": "fixtureswap",
+        "url": "https://dexscreener.com/ethereum/0xaaaa",
+        "pairAddress": "0xaaaa",
+        "baseToken": { "address": "0x1111111111111111111111111111111111111111", "name": "Fixture Token", "symbol": "FXT" },
+        "quoteToken": { "address": "0x3333333333333333333333333333333333333333", "name": "Fixture Dollar", "symbol": "FXD" },
+        "priceUsd": "1.23",
+        "txns": { "h24": { "buys": 10, "sells": 7 } },
+        "volume": { "h24": 5000 },
+        "liquidity": { "usd": 20000, "base": 1, "quote": 1 },
+        "pairCreatedAt": 1767225600000
+      },
+      {
+        "chainId": "base",
+        "dexId": "fixtureswap",
+        "url": "https://dexscreener.com/base/0xbbbb",
+        "pairAddress": "0xbbbb",
+        "baseToken": { "address": "0x1111111111111111111111111111111111111111", "name": "Fixture Token", "symbol": "FXT" },
+        "quoteToken": { "symbol": "FXD" },
+        "priceUsd": "1.25",
+        "volume": { "h24": 900 },
+        "liquidity": { "usd": 80000 }
+      },
+      {
+        "chainId": "ethereum",
+        "dexId": "fixturecurve",
+        "pairAddress": "0xcccc",
+        "baseToken": { "symbol": "OTHER" },
+        "quoteToken": { "symbol": "FXT" },
+        "priceUsd": "not-a-number"
+      }
+    ]
+  }
+}

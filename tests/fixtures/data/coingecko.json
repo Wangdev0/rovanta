@@ -1,0 +1,52 @@
+{
+  "_comment": "DEV FIXTURE: synthetic CoinGecko-shaped payloads for tests only. Values are invented and do not describe real assets.",
+  "search": {
+    "coins": [
+      { "id": "fixture-token-wrapped", "name": "Wrapped Fixture Token", "symbol": "FXT", "market_cap_rank": 950 },
+      { "id": "fixture-token", "name": "Fixture Token", "symbol": "FXT", "market_cap_rank": 120 },
+      { "id": "fixture-token-unranked", "name": "Fixture Token Clone", "symbol": "fxt", "market_cap_rank": null },
+      { "id": "fixture-other", "name": "Other Fixture", "symbol": "OFX", "market_cap_rank": 50 }
+    ],
+    "exchanges": [],
+    "categories": []
+  },
+  "coin": {
+    "id": "fixture-token",
+    "symbol": "fxt",
+    "name": "Fixture Token",
+    "asset_platform_id": "ethereum",
+    "platforms": { "ethereum": "0x1111111111111111111111111111111111111111", "base": "0x2222222222222222222222222222222222222222" },
+    "detail_platforms": {
+      "ethereum": { "decimal_place": 18, "contract_address": "0x1111111111111111111111111111111111111111" },
+      "base": { "decimal_place": 6, "contract_address": "0x2222222222222222222222222222222222222222" }
+    },
+    "categories": ["Fixture Category", null, ""],
+    "description": { "en": "A synthetic token used only in tests." },
+    "links": { "homepage": ["", "https://fixture.invalid", null] },
+    "last_updated": "2026-01-01T00:00:00.000Z",
+    "market_data": {
+      "current_price": { "usd": 1.23, "eur": 1.1 },
+      "market_cap": { "usd": 123000000 },
+      "fully_diluted_valuation": {},
+      "total_volume": { "usd": 4560000 },
+      "ath": { "usd": 9.87 },
+      "price_change_percentage_24h": -2.5,
+      "price_change_percentage_7d": 4.25,
+      "circulating_supply": 100000000,
+      "total_supply": 200000000,
+      "last_updated": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  "simplePrice": {
+    "fixture-token": { "usd": 1.23, "usd_24h_change": -2.5, "last_updated_at": 1767225600 }
+  },
+  "marketChart": {
+    "prices": [],
+    "market_caps": [],
+    "total_volumes": [
+      [1767052800000, 1000000],
+      [1767139200000, null],
+      [1767225600000, 3000000]
+    ]
+  }
+}
