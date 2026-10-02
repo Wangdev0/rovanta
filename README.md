@@ -31,16 +31,16 @@
   <a href="#roadmap">Roadmap</a>
 </p>
 
-<h3 align="center">$RVNT</h3>
+<h3 align="center">$ROVANTA</h3>
 
 <p align="center"><strong>Contract address (CA)</strong></p>
 
 ```text
-0x176f35FE04441BB79FE66F41fD663A34E1D648C7
+0x518867Dc98541547ebc5383f00e954d837967e18
 ```
 
 <p align="center">
-  <a href="https://www.ponsfamily.com/launchpad/0x176f35FE04441BB79FE66F41fD663A34E1D648C7"><img alt="Buy $RVNT" src="https://img.shields.io/badge/Buy-%24RVNT-00C805?style=for-the-badge&labelColor=141816" /></a>
+  <a href="https://www.ponsfamily.com/launchpad/0x518867Dc98541547ebc5383f00e954d837967e18"><img alt="Buy $ROVANTA" src="https://img.shields.io/badge/Buy-%24ROVANTA-00C805?style=for-the-badge&labelColor=141816" /></a>
 </p>
 
 <p align="center"><sub>Paired with ETH. Always verify the contract address. Not investment advice.</sub></p>
